@@ -1,4 +1,5 @@
 ## 📝 Gerenciador de Tarefas - React Query & Axios
+![Preview](./previa.png)
 Este é um Gerenciador de Tarefas moderno construído para demonstrar o poder do TanStack Query (React Query) e Axios no gerenciamento de estados assíncronos e requisições HTTP.
 
 ## 🚀 Tecnologias
