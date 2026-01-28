@@ -1,0 +1,64 @@
+/* src/components/TaskList.css */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+h1 { color: #333; text-align: center; }
+
+.form-tarefa {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus { border-color: #007bff; }
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-add { background-color: #007bff; color: white; }
+.btn-delete { background-color: #ff4d4d; color: white; margin-left: auto; }
+.btn-toggle { background-color: #28a745; color: white; margin-left: 10px; }
+
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+ul { list-style: none; padding: 0; }
+
+.tarefa-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  background: white;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.tarefa-texto {
+  flex: 1;
+  cursor: pointer;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #888;
+}
