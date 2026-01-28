@@ -25,9 +25,3 @@ Exclusão: Remove itens da lista com sincronização de cache.
 
 Gerenciamento de Cache: Invalidação de queries para manter a interface sempre atualizada após mutações.
 
-## 🧠 O que eu aprendi
-Hooks do React Query: Diferença entre useQuery (leitura) e useMutation (escrita).
-
-Sincronização: Como usar o queryClient.invalidateQueries para atualizar a UI sem recarregar a página.
-
-Tratamento de Erros: Exibição de estados de Loading e Error de forma amigável para o usuário.
